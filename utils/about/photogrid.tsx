@@ -31,7 +31,7 @@ export function VPhotoGrid() {
             <Modal onClose={closeLightbox}>
               <Carousel
                 currentIndex={currentImage}
-                views={data.photos.map(x => ({
+                views={data.photos.map((x: any) => ({
                   ...x,
                   srcset: x.srcSet,
                   caption: x.title
