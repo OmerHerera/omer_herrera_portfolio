@@ -1,10 +1,9 @@
-import Image from 'next/image'
 import React, { useState, useCallback } from 'react'
-import { Fade } from 'react-awesome-reveal'
 import useAxios from 'axios-hooks'
 import Gallery from "react-photo-gallery";
 import Carousel, { Modal, ModalGateway } from "react-images";
 import styles from './photogrid.module.scss'
+import { VLoading } from '../loading';
 
 export function VPhotoGrid() {
   const [{ data, loading, error }, refetch] = useAxios('/api/gallery');
@@ -21,7 +20,7 @@ export function VPhotoGrid() {
     setViewerIsOpen(false);
   };
 
-  if (loading) return <p>Loading...</p>
+  if (loading) return <VLoading />
   if (error) return <p>Error!</p>
   return (
     <div className={styles.photoGallery}>
@@ -43,5 +42,3 @@ export function VPhotoGrid() {
           </div>
   )
 }
-
-//TO-DO refactoring of VPhotoGrid
