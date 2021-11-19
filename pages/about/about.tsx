@@ -28,13 +28,13 @@ export default function VAbout() {
               Long story short about me
             </h1>
             <h2>
-              I have a few passions in my life one is to create.
-              I love to create software, especially web applications, 3d Graphic design and making 3d animations give me a lot of fun as well.
-              Lately got into the photography world.
-              Whenever I have some spare time, I try to dedicate it to learning new technologies, spending my time
-              with friends and family. To relax I usually watch movies/tv series.
-              I also pay high attention to my self-development, in order to be up to date with current trends on the market.
-              Here are some example of my 3d graphic works, using blender program
+              I have a few passions in my life, one of them is to create🛠️.
+              <br />I love to create software, especially web applications using JavaScript, 3d Graphic design, and making 3d animations gives me a lot of fun as well.
+              Lately got into the photography 📷 world.
+              <br />Whenever I have some spare time, I try to dedicate it to learning new technologies 🤓, spending my time with friends and family 🤗.
+              <br />To relax I usually watch 📺 movies/tv series.
+              <br />I also pay high attention to my self-development, to be up to date with current trends on the market 📈.
+              <br />Here are some examples of my 3d graphic works, using blender program
             </h2>
           </Fade>
         </div>
