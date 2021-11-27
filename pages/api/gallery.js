@@ -69,6 +69,12 @@ const photos = [
     width: 3,
     height: 3
   },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1638008623/blender/Hanuka_mtxcty.png",
+    width: 6,
+    height: 3
+  },
+
 ];
 export default function handler(req, res) {
   res.status(200).json({ photos });
