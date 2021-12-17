@@ -74,6 +74,11 @@ const photos = [
     width: 6,
     height: 3
   },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1639764658/blender/wizardTable_waewjo.png",
+    width: 6,
+    height: 3
+  },
 
 ];
 export default function handler(req, res) {
