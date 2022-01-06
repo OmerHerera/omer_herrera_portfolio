@@ -10,7 +10,7 @@ export function VTimelineGrid() {
       {/* BIZZABO */}
       <VPosition
         company={"Bizzabo"}
-        title={"Senior Web Engineer Web Foundation Team"}
+        title={"Building Web Platform's Infrastructure"}
         date={"Nov 2021 - Present"}
         description={
           <>
