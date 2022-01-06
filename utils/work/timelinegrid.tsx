@@ -7,10 +7,8 @@ export function VTimelineGrid() {
         <h1>2021</h1>
         <div className={styles.timelinePoint} />
       </div>
-      {/* This need to be remove once I view bizzabo position */}
-      <div className={styles.timelineGridItemAdjoiningCard} />
       {/* BIZZABO */}
-      {/* <VPosition
+      <VPosition
         company={"Bizzabo"}
         title={"Senior Web Engineer Web Foundation Team"}
         date={"Nov 2021 - Present"}
@@ -23,7 +21,7 @@ export function VTimelineGrid() {
             Collaborate with different stakeholders in the company (developers, designers, product managers, engineering managers) to help them make the most out of the tools
           </>
         }
-      /> */}
+      />
       <div className={styles.timelineGridItemAdjoiningCard} />
       <div className={styles.timelineGridItemAdjoiningCard}/>
       {/* APPSFLYER */}
