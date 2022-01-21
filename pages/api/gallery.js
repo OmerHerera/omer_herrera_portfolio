@@ -79,6 +79,28 @@ const photos = [
     width: 6,
     height: 3
   },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1642783470/blender/spaceShips_e96ll3.png",
+    width: 5,
+    height: 3
+  },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1642783452/blender/Ballons_t9k0rt.png",
+    width: 6,
+    height: 3
+  },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1642783451/blender/candyLand_vis3fu.png",
+    width: 6,
+    height: 3
+  },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1642783422/blender/2022_yadvfk.png",
+    width: 3,
+    height: 3
+  },
+
+
 
 ];
 export default function handler(req, res) {
