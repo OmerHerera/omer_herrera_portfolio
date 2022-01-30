@@ -1,5 +1,20 @@
 const photos = [
   {
+    src: "https://res.cloudinary.com/omher/image/upload/v1643570566/blender/boba_Helmets_k1irs6.png",
+    width: 6,
+    height: 3
+  },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1643570566/blender/boba_helmets_2_sw4wnb.png",
+    width: 6,
+    height: 3
+  },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Boba_ffu2l8.jpg",
+    width: 6,
+    height: 3
+  },
+  {
     src: "https://res.cloudinary.com/omher/image/upload/v1636455564/blender/Apples_twodxd.jpg",
     width: 6,
     height: 3
