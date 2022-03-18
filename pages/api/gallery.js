@@ -1,5 +1,20 @@
 const photos = [
   {
+    src: "https://res.cloudinary.com/omher/image/upload/v1647592753/blender/arcade_04_bvbvue.png",
+    width: 6,
+    height: 3
+  },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1647592758/blender/arcade_03_gykklo.png",
+    width: 6,
+    height: 3
+  },
+  {
+    src: "https://res.cloudinary.com/omher/image/upload/v1647592757/blender/arcade_01_dobuu7.png",
+    width: 6,
+    height: 3
+  },
+  {
     src: "https://res.cloudinary.com/omher/image/upload/v1643570566/blender/boba_Helmets_k1irs6.png",
     width: 6,
     height: 3
@@ -20,12 +35,12 @@ const photos = [
     height: 3
   },
   {
-    src: "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Warehouse_spj62u.jpg",
+    src: "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Pears_hvvpbo.jpg",
     width: 6,
     height: 3
   },
   {
-    src: "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Boba_ffu2l8.jpg",
+    src: "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Warehouse_spj62u.jpg",
     width: 6,
     height: 3
   },
@@ -35,8 +50,8 @@ const photos = [
     height: 3
   },
   {
-    src: "https://res.cloudinary.com/omher/image/upload/v1636455563/blender/Pears_hvvpbo.jpg",
-    width: 6,
+    src: "https://res.cloudinary.com/omher/image/upload/v1647592723/blender/Miau_Si_stf0nz.png",
+    width: 5,
     height: 3
   },
   {
