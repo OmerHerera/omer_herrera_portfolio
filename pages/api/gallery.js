@@ -1,5 +1,10 @@
 const photos = [
   {
+    src: "https://res.cloudinary.com/omher/image/upload/v1648406374/blender/BB8_nox3nl.png",
+    width: 6,
+    height: 3
+  },
+  {
     src: "https://res.cloudinary.com/omher/image/upload/v1647592753/blender/arcade_04_bvbvue.png",
     width: 6,
     height: 3
