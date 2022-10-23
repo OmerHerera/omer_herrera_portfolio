@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import {
-  appsflyerLogo, livePersonLogo, sizmekLogo, bizzaboLogo
+  appsflyerLogo, livePersonLogo, sizmekLogo, bizzaboLogo, dyLogo
 }from '../../assets'
 import styles from './timelinegrid.module.scss'
 export interface PositionProps {
@@ -19,6 +19,8 @@ function getLogo(company: string): StaticImageData {
       return sizmekLogo;
     case "Bizzabo":
       return bizzaboLogo;
+    case "Dynamic Yield":
+      return dyLogo;
   }
   return appsflyerLogo;
 }

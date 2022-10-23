@@ -4,14 +4,28 @@ export function VTimelineGrid() {
   return (
     <div className={styles.timelineGrid}>
       <div className={styles.timelineGridItemWide}>
-        <h1>2021</h1>
+        <h1>2022</h1>
         <div className={styles.timelinePoint} />
       </div>
+      {/* DY */}
+      <div className={styles.timelineGridItemAdjoiningCard} />
+      <VPosition
+        company={"Dynamic Yield"}
+        title={"Principal Frontend Engineer"}
+        date={"Sep 2022 - Present"}
+        description={
+          <>
+            Member @Client Team, the team is responsible for both the server-side and client-side of the scripts that are in charge of 1-to-1 personalization,
+            segmented behavioral targeting, testing and optimization, product recommendations, and more.
+            Educate the developers about the tools and technologies            
+          </>
+        }
+      />
       {/* BIZZABO */}
       <VPosition
         company={"Bizzabo"}
         title={"Staff Frontend Engineer"}
-        date={"Nov 2021 - Present"}
+        date={"Nov 2021 - Aug 2022"}
         description={
           <>
             Building tools and frameworks that are used by front-end developers in the company.
