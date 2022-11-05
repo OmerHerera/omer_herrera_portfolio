@@ -39,7 +39,7 @@ export default function Container(props) {
   const meta = {
     title: 'Omer Herrera',
     description: `Principal FrontEnd Engineer, JavaScript enthusiast.`,
-    image: 'https://leerob.io/static/images/lee-banner.png',
+    image: 'https://omer.dev/static/profilePicture.jpg',
     type: 'website',
     ...customMeta
   };
@@ -58,7 +58,6 @@ export default function Container(props) {
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@leeerob" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
