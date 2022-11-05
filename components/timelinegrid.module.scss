@@ -1,13 +1,13 @@
 .timelineGrid {
   background-color: #D5D5D5;
   display: grid;
-  column-gap: 7px;
+  // column-gap: 7px;
   grid-template-columns: auto auto;
   min-height: 1500px;
 
   &Item {
     align-items: center;
-    background-color:#1A1A1A;
+    background-color:#111111;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,13 +49,15 @@
     }
 
     .cardContent {
-      background-color: #202020;
+      background-color: #111111;
       border-radius: 30px;
-      border: 5px solid #D5D5D5;
+      border: 5px solid;
+      border-image-slice: 1;
+      border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
       min-height: 250px;
       transition: transform .2s;
       padding: 15px;
-      width: 400px;
+      width: 600px;
 
       &:hover {
         transform: scale(1.7);
@@ -76,6 +78,7 @@
         }
 
         &Title {
+          color: #D5D5D5;
           font-size: 20px;
           margin: 0;
         }
@@ -94,6 +97,7 @@
       }
 
       &Details {
+        color: #D5D5D5;
         font-size: 15px;
         margin: 0;
       }
@@ -117,6 +121,7 @@
   }
 
   .timelineGridItemCard {
+    padding: 10px 0px 10px 0px;
     grid-column-end: 3;
     grid-column-start: 1;
   }

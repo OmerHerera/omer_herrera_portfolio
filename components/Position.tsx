@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import {
   appsflyerLogo, livePersonLogo, sizmekLogo, bizzaboLogo, dyLogo
-}from '../../assets'
+}from './../assets'
 import styles from './timelinegrid.module.scss'
 export interface PositionProps {
   company: string;
@@ -9,6 +9,9 @@ export interface PositionProps {
   date: string;
   description?: React.ReactNode;
 };
+
+import cn from 'classnames';
+
 function getLogo(company: string): StaticImageData {
   switch (company) {
     case "appsflyer":
@@ -24,9 +27,10 @@ function getLogo(company: string): StaticImageData {
   }
   return appsflyerLogo;
 }
-export function VPosition({ company, title, date, description }: PositionProps) {
+export function PositionCard({ company, title, date, description }: PositionProps) {
   return (
-    <div className={styles.timelineGridItemCard}>
+    <div
+      className={styles.timelineGridItemCard}>
         <div className={styles.cardContent}>
           <div className={styles.cardContentHeader}>
             <div className={styles.companyLogo}>

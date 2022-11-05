@@ -1,7 +1,21 @@
-import '../styles/globals.scss'
-import type { AppProps } from 'next/app'
+import 'styles/global.css';
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+import { ThemeProvider } from 'next-themes';
+import { Inter } from '@next/font/google';
+import { Analytics } from '@vercel/analytics/react';
+
+const interVariable = Inter();
+
+export default function App({
+  Component,
+  pageProps: { session, ...pageProps }
+}) {
+  return (
+    <ThemeProvider attribute="class">
+      <main className={interVariable.className}>
+        <Component {...pageProps} />
+        <Analytics />
+      </main>
+    </ThemeProvider>
+  );
 }
-export default MyApp

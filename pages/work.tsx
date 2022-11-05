@@ -1,15 +1,20 @@
-import styles from './timelinegrid.module.scss'
-import { VPosition } from './position'
-export function VTimelineGrid() {
+import Link from 'next/link';
+
+
+import Container from 'components/Container';
+import { PositionCard } from '../components/Position';
+
+export default function Work() {
   return (
-    <div className={styles.timelineGrid}>
-      <div className={styles.timelineGridItemWide}>
-        <h1>2022</h1>
-        <div className={styles.timelinePoint} />
-      </div>
-      {/* DY */}
-      <div className={styles.timelineGridItemAdjoiningCard} />
-      <VPosition
+    <Container
+      title="Work – Omer Herrera"
+      description="My personal Work, built with Next.js API routes deployed as serverless functions."
+    >
+      <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+        <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">
+        My work history
+        </h1>
+        <PositionCard
         company={"Dynamic Yield"}
         title={"Principal Frontend Engineer"}
         date={"Sep 2022 - Present"}
@@ -20,9 +25,8 @@ export function VTimelineGrid() {
             Educate the developers about the tools and technologies            
           </>
         }
-      />
-      {/* BIZZABO */}
-      <VPosition
+        />
+        <PositionCard
         company={"Bizzabo"}
         title={"Staff Frontend Engineer"}
         date={"Nov 2021 - Aug 2022"}
@@ -35,11 +39,8 @@ export function VTimelineGrid() {
             Collaborate with different stakeholders in the company (developers, designers, product managers, engineering managers) to help them make the most out of the tools
           </>
         }
-      />
-      <div className={styles.timelineGridItemAdjoiningCard} />
-      <div className={styles.timelineGridItemAdjoiningCard}/>
-      {/* APPSFLYER */}
-      <VPosition
+        />
+        <PositionCard
         company={"Appsflyer"}
         title={"Web Tech Lead Platform Team"}
         date={"Feb 2020 - Nov 2021"}
@@ -55,7 +56,7 @@ export function VTimelineGrid() {
         }
       />
       {/* APPSFLYER */}
-      <VPosition
+      <PositionCard
         company={"Appsflyer"}
         title={"Front End Tech Lead Infra Team"}
         date={"Mar 2016 - Feb 2020"}
@@ -69,10 +70,8 @@ export function VTimelineGrid() {
           </>
         }
       />
-      <div className={styles.timelineGridItemAdjoiningCard} />
-      <div className={styles.timelineGridItemAdjoiningCard}/>
       {/* LIVEPERSON */}
-      <VPosition
+      <PositionCard
         company={"LivePerson"}
         title={"Front End Engineer Infrastructure Team"}
         date={"Jan 2013 - Feb 2016"}
@@ -89,7 +88,7 @@ export function VTimelineGrid() {
         }
       />
       {/* LIVEPERSON */}
-      <VPosition
+      <PositionCard
         company={"LivePerson"}
         title={"Software Engineer"}
         date={"May 2012 – Jan 2013"}
@@ -100,10 +99,8 @@ export function VTimelineGrid() {
           </>
         }
       />
-      <div className={styles.timelineGridItemAdjoiningCard} />
-      <div className={styles.timelineGridItemAdjoiningCard}/>
       {/* SIZMEK */}
-      <VPosition
+      <PositionCard
         company={"Sizmek"}
         title={"Web Software Engineer"}
         date={"Feb 2007 - Jun 2012"}
@@ -116,7 +113,7 @@ export function VTimelineGrid() {
         }
       />
       {/* SIZMEK */}
-      <VPosition
+      <PositionCard
         company={"Sizmek"}
         title={"Software Engineer"}
         date={"Feb 2005 - Jun 2007"}
@@ -128,10 +125,7 @@ export function VTimelineGrid() {
           </>
         }
       />
-      <div className={styles.timelineGridItem}/>
-      <div className={styles.timelineGridItemWide}>
-        <div className={styles.timelinePoint}/>
       </div>
-    </div>
-  )
+    </Container>
+  );
 }
