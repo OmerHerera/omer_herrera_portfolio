@@ -5,8 +5,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint": "next lint",
-    "sanity-start": "sanity start"
+    "lint": "next lint"
   },
   "dependencies": {
     "@next/font": "13.0.2",

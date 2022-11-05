@@ -9,6 +9,12 @@ export interface PositionProps {
   date: string;
   description?: React.ReactNode;
 };
+export declare type StaticImageData = {
+  src: string;
+  height: number;
+  width: number;
+  placeholder?: string;
+};
 
 import cn from 'classnames';
 
