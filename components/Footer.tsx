@@ -35,6 +35,12 @@ export default function Footer() {
           >
             About
           </Link>
+          <Link
+            href="/gallery"
+            className="text-gray-500 hover:text-gray-600 transition"
+          >
+            Gallery
+          </Link>
         </div>
         <div className="flex flex-col space-y-4">
           <ExternalLink href="https://www.linkedin.com/in/omer-herrera-15846a6/">

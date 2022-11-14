@@ -1,7 +1,6 @@
 import { v2 as cloudinary } from 'cloudinary';
 import { CustomImage } from './types'
 
-console.log(`process.env.CLOUDINARY_API_KEY: ${process.env.CLOUDINARY_API_KEY}`)
 cloudinary.config({
 	cloud_name: 'omher',
   api_key: process.env.CLOUDINARY_API_KEY,
