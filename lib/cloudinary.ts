@@ -20,7 +20,7 @@ export const getResources = async () => {
           {
             src: secure_url,
             original: secure_url,
-            width: 320,
+            width: 200,
             height: 100,
             tags: [
               // { value: "Naturesss", title: "Naturesss" },
