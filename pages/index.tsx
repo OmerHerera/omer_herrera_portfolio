@@ -30,10 +30,10 @@ export default function Home() {
                 alt="Omer Herrera"
                 height={176}
                 width={176}
-                src="/profilePicture.jpg"
+                src="/profilePictureColor.webp"
                 sizes="30vw"
                 priority
-                className="rounded-full filter grayscale"
+                className="rounded-full filter"
               />
             </div>
           </div>
