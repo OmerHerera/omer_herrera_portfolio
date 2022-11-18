@@ -15,13 +15,13 @@ export const getResources = async () => {
     .execute()
     .then(result => {
       result.resources.map((res) => {
-        const { secure_url, } = res;
+        const { secure_url, width, height} = res;
         images.push(
           {
             src: secure_url,
             original: secure_url,
-            width: 200,
-            height: 100,
+            width: width/10,
+            height: height/10,
             tags: [
               // { value: "Naturesss", title: "Naturesss" },
               // { value: "Floraddd", title: "Floradd" }
