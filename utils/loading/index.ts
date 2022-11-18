@@ -1,1 +1,0 @@
-export { VLoading } from './loading'

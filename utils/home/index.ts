@@ -1,1 +1,0 @@
-export { VMainHeader } from './mainheader'
