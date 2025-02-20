@@ -1,5 +1,0 @@
-export { default as appsflyerLogo } from './logos/appsflyerLogo.webp'
-export { default as livePersonLogo } from './logos/livePersonLogo.webp'
-export { default as sizmekLogo } from './logos/sizmekLogo.webp'
-export { default as bizzaboLogo } from './logos/bizzaboLogo.webp'
-export { default as dyLogo } from './logos/dyLogo.webp'
